@@ -27,19 +27,12 @@ function Page() {
 
   return (
     <section
-      className="px-5 sm:px-32 md:px-24 lg:px-52 md:py-10 py-4 mb-20 space-y-10 text-black "
-      style={{
-        backgroundImage: "url('/image/blogs.jpg')",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
-      }}
+      className="px-5 sm:px-32 md:px-24 lg:px-52 md:py-10 py-4 mb-20 space-y-10 text-black bg-center bg-fixed bg-cover bg-no-repeat bg-[url('/image/blogs.jpg')]"
     >
       {!data.length ? (
         <div className="h-screen text-2xl flex flex-col items-center justify-center">
           <h1>You can see blogs here when posts are published</h1>
-          <h1>Check Your Internet Connection!</h1>
+          <h1>Check Your Internet Conn</h1>
         </div>
       ) : (
         <div className="space-y-10 ">
