@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Footerpic from "../../Public/Image/footerimg.webp";
+import Footerpic from "../../public/image/footerimg.webp";
 
 function Footer() {
   return (

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
-import heroImg1 from "../../Public/Image/hero 1.webp";
-import heroImg2 from "../../Public/Image/hero 2.webp";
+import heroImg1 from "../../public/image/hero 1.webp";
+import heroImg2 from "../../public/image/hero 2.webp";
 
 function HeroSection() {
   return (

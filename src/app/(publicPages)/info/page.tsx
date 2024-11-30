@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import infoPic from "../../../../Public/Image/infobg.webp";
+import infoPic from "../../../../public/image/infobg.webp";
 
 function Page() {
   return (
