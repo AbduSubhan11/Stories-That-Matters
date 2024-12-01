@@ -2,7 +2,7 @@ import React from "react";
 
 function BlogQuote() {
   return (
-    <section className="lg:flex items-center justify-between relative gap-2 xl:gap-32 space-y-10 w-full h-full px-5 md:px-10 lg:px-20 mb-40">
+    <section className="lg:flex items-center justify-between relative gap-2 xl:gap-32 space-y-10 w-full h-full px-5 md:px-10 lg:px-20 py-10 sm:py-0 mb-40">
       {/* LEFT */}
       <div className="sm:px-12 md:px-16 lg:px-10 xl:px-10 flex flex-col text-center items-center justify-center gap-y-20 w-full lg:w-[30%] xl:w-[40%] 2xl:w-[50%]">
         <h1 className="text-2xl sm:text-5xl text-[#14213d] font-serif italic">
